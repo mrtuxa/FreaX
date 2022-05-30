@@ -1,6 +1,6 @@
 #!/bin/bash
 # assemble boot.s file
-as --32 -o boot.s boot.o
+as --32 -o boot.s -o boot.o
 
 # compile kernel
 
