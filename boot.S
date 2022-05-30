@@ -43,7 +43,7 @@ cli
 
 hltLoop:
 
-    hltLoop
+    hlt
     jmp hltLoop
 
 .size _start, . - _start
